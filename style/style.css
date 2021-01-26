@@ -360,10 +360,16 @@ body {
     color: #FFFFFF;
     padding: 15px 0px;
     background-color: #4A4FF2;
-    border: none;
+    border: solid 1px transparent;
     cursor: pointer;
     outline: none;
     width: 125px;
+}
+
+.full-form-btn:hover {
+    background-color:  #FFFFFF;
+    color: #4A4FF2;
+    border: solid 1px #4A4FF2;
 }
 
 .map {

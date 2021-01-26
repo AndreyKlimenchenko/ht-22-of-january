@@ -1,0 +1,393 @@
+body {
+    margin: 0px;
+    font-family: 'Mulish', sans-serif;
+}
+
+.header {
+    width: 80%;
+    margin: 0px auto;
+    padding: 60px 0px 100px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin: 0px;
+    cursor: pointer;
+}
+
+.logo:hover {
+    color: #4A4FF2;
+    transform: scale(1.15);
+}
+
+.header-nav {
+    display: flex;
+}
+
+.nav-btn {
+    padding: 0px;
+    margin-left: 29px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: -0.346154px;
+    color: #111111;
+}
+
+.nav-btn:hover {
+    color: #4A4FF2;
+    transform: scale(1.15);
+}
+
+.hello-section {
+    width: 80%;
+    margin: 0px auto;
+    padding-bottom: 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.hello-link {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: -0.423077px;
+    text-decoration: none;
+    color: #4A4FF2;
+}
+
+.hello-link:hover {
+    color: #050cde;
+}
+
+.hello-title {
+    margin: 32px 0px 0px 0px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 60px;
+    color: #111111;
+}
+
+.hello-title-link {
+    text-decoration: none;
+    color: #4A4FF2;
+}
+
+.hello-title-link:hover {
+    color: #050cde;
+}
+
+.hello-design {
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hello-design-part {
+    font-style: italic;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #111111;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+}
+
+.img-section {
+    width: 80%;
+    padding-bottom: 90px;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    column-gap: 2%;
+}
+
+.img-section > div {
+    display: grid;
+    row-gap: 30px;
+}
+
+.img-section > div > img {
+    width: 100%;
+}
+
+.info-section {
+    width: 80%;
+    margin: 0px auto;
+}
+
+.info-title {
+    margin: 0px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 38px;
+    color: #111111;
+}
+
+.info-link {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #111111;
+    mix-blend-mode: normal;
+    text-decoration: none;
+    opacity: 0.6;
+}
+
+.info-link:hover {
+    color: #4A4FF2;
+}
+
+.info-title-container {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+.info-title-container > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-links-2 {
+    margin-right: 50px;
+}
+
+.info-title-container > div > a {
+    margin-bottom: 10px;
+}
+
+.info-container {
+    display: grid;
+    grid-template-columns: 40% 20% 20% 20%;
+}
+
+.info-container-little {
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    justify-content: end;
+}
+
+.years {
+    text-align: end;
+}
+
+.info-title-little {
+    margin: 0px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 28px;
+}
+
+.info-title-nomination {
+    margin: 0px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.nomination-name {
+    margin: 0px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.nomination-info {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #111111;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+}
+
+.info-list {
+    display: grid;
+    row-gap: 50px;
+    padding: 35px 0px;
+}
+
+.genital-section {
+    width: 80%;
+    margin: 0px auto;
+}
+
+.genital-container {
+    padding: 60px 0px;
+    display: grid;
+    grid-template-columns: 50% 40%;
+    column-gap: 10%;
+}
+
+.genital-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.genital-title {
+    margin: 0px 0px 28px 0px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 55px;
+}
+
+.genital-title-info {
+    margin: 0px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #111111;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+.girl-img {
+    width: 100%;
+}
+
+.genital-other-info {
+    margin: 45px 0px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #111111;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+.genital-img-container {
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    column-gap: 2%;
+}
+
+.genital-img {
+    width: 100%;
+}
+
+.about-container {
+    display: grid;
+    grid-template-columns: 50% 40%;
+    column-gap: 10%;
+    border-bottom: 1px solid #D8D8D8;
+}
+
+
+.full-section {
+    width: 80%;
+    margin: 0px auto;
+}
+
+.full-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.full-container {
+    display: grid;
+    grid-template-columns: 43% 52%;
+    column-gap: 5%;
+    padding: 100px 0px;
+}
+
+.full-title {
+    margin: 0px 0px 22px 0px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 55px;
+}
+
+.full-title-info {
+    margin: 0px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #111111;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+.full-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.full-input {
+    padding: 20px 0px;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #111111;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+    border: none;
+    border-bottom: 1px solid #D8D8D8;
+    outline: none;
+}
+
+.full-form-btn {
+    margin-top: 38px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 15px 0px;
+    background-color: #4A4FF2;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    width: 125px;
+}
+
+.map {
+    width: 100%;
+    height: 570px;
+}
+
+.social-container {
+    margin-left: 80px;
+}
+
+.svg {
+    fill: rgba(0, 0, 0, 1);
+}
+
+.svg:hover {
+    fill:  #4A4FF2;
+}
+
+.footer-link {
+    margin-left: 25px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+}
+
